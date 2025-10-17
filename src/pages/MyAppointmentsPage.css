@@ -1,0 +1,73 @@
+.appointments-page-container {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f8f9fa;
+  min-height: calc(100vh - 80px);  
+}
+
+.appointments-header {
+  padding: 50px 20px;
+  background: linear-gradient(to right, #007AFF, #0056b3);
+  text-align: center;
+  color: white;
+}
+
+.appointments-header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.appointments-list {
+  padding: 30px 20px;
+  max-width: 900px;
+  margin: -40px auto 0 auto;  
+  position: relative;
+  z-index: 2;
+}
+
+.appointment-card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  border: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.appointment-card h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.appointment-card p {
+  color: #6c757d;
+  font-size: 1rem;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.status-badge.upcoming {
+  background-color: #e6f7ff;
+  color: #007AFF;
+}
+
+.status-badge.completed {
+  background-color: #f6ffed;
+  color: #28a745;
+}
+.no-appointments-message {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.2rem;
+  color: #6c757d;
+}

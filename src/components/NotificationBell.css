@@ -1,0 +1,60 @@
+.notification-bell {
+  position: relative;
+}
+
+.bell-button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #4F4F4F;
+  position: relative;
+}
+
+.notification-dot {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 8px;
+  height: 8px;
+  background-color: #dc3545;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.notifications-panel {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: 350px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.15);
+  border: 1px solid #eee;
+  z-index: 1000;
+}
+
+.panel-header {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.panel-header h3 {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.panel-body {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.notification-item {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  font-size: 0.9rem;
+}
+
+.notification-item:last-child {
+  border-bottom: none;
+}

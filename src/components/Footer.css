@@ -1,0 +1,61 @@
+/* Footer.css */
+
+.footer-container {
+  background-color: #1a1a1a;
+  color: #a9a9a9;
+  padding: 40px 20px 20px 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1300px; /* Limit width for larger screens */
+  margin: 0 auto;
+  flex-wrap: wrap; /* Stack sections on smaller screens */
+  gap: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px; /* Ensure sections don't get too narrow */
+}
+
+.footer-section h3 {
+  color: #ffffff; /* Make headings stand out */
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.footer-section p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li {
+  margin-bottom: 8px;
+}
+
+.footer-section a {
+  color: #a9a9a9;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-section a:hover {
+  color: #ffffff;
+}
+
+/* Bottom copyright section */
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #333; /* Separator line */
+  font-size: 0.8rem;
+}

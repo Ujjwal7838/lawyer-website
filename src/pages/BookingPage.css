@@ -1,0 +1,115 @@
+.booking-page-container {
+  background: linear-gradient(180deg, #E0EFFF 0%, #EFF5FF 70%, #f8f9fa 100%);
+  padding: 50px 20px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.booking-card {
+  max-width: 800px;
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.booking-header {
+  text-align: center;
+  padding: 30px;
+  border-bottom: 1px solid #eee;
+}
+
+.booking-header h3 {
+  font-size: 1rem;
+  color: #6c757d;
+  font-weight: 500;
+}
+
+.booking-header h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.booking-body {
+  display: flex;
+  padding: 30px;
+}
+
+.calendar-container {
+  flex: 1;
+  padding-right: 30px;
+  border-right: 1px solid #eee;
+}
+
+.booking-body h4 {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.react-datepicker {
+  border: none !important;
+  font-size: 1rem !important;
+}
+
+.timeslot-container {
+  flex: 1;
+  padding-left: 30px;
+}
+
+.timeslot-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.timeslot-button {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #007AFF;
+  background-color: white;
+  color: #007AFF;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.timeslot-button:hover {
+  background-color: #f0f8ff;
+}
+
+.timeslot-button.selected {
+  background-color: #007AFF;
+  color: white;
+  font-weight: bold;
+}
+
+.booking-footer {
+  padding: 20px 30px;
+  background-color: #f8f9fa;
+  border-top: 1px solid #eee;
+}
+
+.booking-button {
+  display: block;
+  width: 100%;
+  padding: 18px;
+  border: none;
+  border-radius: 12px;
+  background-color: #28a745;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+}
+
+.booking-button:disabled {
+  background-color: #a9a9a9;
+  cursor: not-allowed;
+}

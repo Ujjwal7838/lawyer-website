@@ -1,0 +1,120 @@
+.profile-page-background {
+  background: linear-gradient(180deg, #E0EFFF 0%, #EFF5FF 70%, #f8f9fa 100%);
+  padding: 50px 20px;
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.profile-card {
+  max-width: 700px;
+  margin: auto;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-card-header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #fdfdfd;
+}
+
+.profile-card-avatar {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin: 0 auto 20px auto;
+  border: 5px solid white;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.profile-card-header h2 {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.profile-card-header p {
+  font-size: 1.2rem;
+  color: #6c757d;
+}
+
+.profile-card-stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 25px;
+  background-color: #f8f9fa;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-item span {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #007AFF;
+}
+
+.stat-item p {
+  color: #6c757d;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+.profile-card-bio {
+  padding: 30px;
+}
+
+.profile-card-bio h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.profile-card-bio p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #333;
+}
+
+.profile-card-footer {
+  display: flex;
+  gap: 15px;
+  padding: 20px 30px;
+  background-color: #f8f9fa;
+  border-top: 1px solid #eee;
+}
+
+.profile-card-button {
+  flex: 1;
+  padding: 18px;
+  border: none;
+  border-radius: 12px;
+  background-color: #007AFF;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.profile-card-button.message {
+  background-color: #6c757d;
+}
+
+.profile-card-button:hover {
+  transform: scale(1.02);
+}
+
+.not-found {
+  text-align: center;
+  padding: 50px;
+  font-size: 1.5rem;
+}
